@@ -1,0 +1,9 @@
+*.pyc
+*.log
+*.pid
+*.sqlite3
+static/*
+components/*
+uploaded/*
+composeexample/local_settings.py
+composeexample/production.py
