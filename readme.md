@@ -15,3 +15,11 @@ First start:
     * exit
 * docker-machine ip default
 * Open http://dockermachineip:8000
+
+Subsequent starts:
+
+* docker-compose up -d
+* docker-compose ps
+* docker-machine ip default
+* docker exec -it composedjango_web_1 bash
+* Open http://dockermachineip:8000
